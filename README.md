@@ -86,7 +86,7 @@ Please put these times into graphs (using Excel, `matplotlib` or whatever suits 
 In the `perf_main.c`, I placed an example fo how to do timing. You should create thunks for running all operations. Then you can collect the data from the file. I will offer `+5` bonus points on this lab if you meet the following criteria: Write to file the output timings in CSV format (+5)
 
 | Data Structure      | Random Insert | Random Read | Contains (x) | Iteration | Random Remove
-| ----------- | ----------- |
+| -----------         | -----------   | ----------- | -----------  |  ----------- | ----------- |
 | Doubly Linked List | X | X | X | X | X | 
 | Singly Linked List | X | X | X | X | X | 
 | Stack (dll)        | X | X | X | X | X | 
