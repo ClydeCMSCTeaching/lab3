@@ -1,13 +1,13 @@
 all: dsPerfTest
 
 dsPerfTest: perf_main.c libmydslib.a
-	gcc -lm -o dsPerfTest perf_main.c -L. -lmydslib -I include/
+	gcc -lm -o dsPerfTest perf_main.c -L. -lmydslib -I include/ 
 
 sllist.o: src/sllist.c include/sllist.h
-	gcc -O -c src/sllist.c -I./include
+	gcc -O -c src/sllist.c -I./include 
 
 dllist.o: src/dllist.c include/dllist.h
-	gcc -O -c src/dllist.c -I./include
+	gcc -O -c src/dllist.c -I./include 
 
 stack.o: src/stack.c include/stack.h
 	gcc -O -c src/stack.c -I./include

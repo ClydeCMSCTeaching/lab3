@@ -27,7 +27,7 @@ You will create both linked list styles, single and double linked. You are allow
 Implement a stack and a queue class with a doubly linked list. You are allowed to modify function signatures in the `.h` file if you ask on Ed first. You are always allowed to add extra helper functions to `.c` and `.h` files. You should add comments describing every function in the `.h` file. 
 
 # Binary search trees (20/100)
-Implement a binary search tree. You are allowed to modify function signatures in the `.h` file if you ask on Ed first. You are always allowed to add extra helper functions to `.c` and `.h` files. You should add comments describing every function in the `.h` file. 
+Implement a binary search tree. You are allowed to modify function signatures in the `.h` file if you ask on Ed first. You are always allowed to add extra helper functions to `.c` and `.h` files. You should add comments describing every function in the `.h` file. **Your tree must be a balanced binary search tree.** I.e. your insert function should maintain the tree such that heigth of lsub and rsub is never more than 1.
 
 ## Comparisons and Report (30/100)
 
@@ -45,7 +45,7 @@ Please put these times into graphs (using Excel, `matplotlib` or whatever suits 
 In the `perf_main.c`, I placed an example fo how to do timing. You should create thunks for running all operations. Then you can collect the data from the file. I will offer `+5` bonus points on this lab if you meet the following criteria: Write to file the output timings in CSV format (+5). You can do timing with a different style if you like. 
 
 
-This is an example of the tables you should create, one for each optimization level and a couple across starting points of the size of each structure. For instance, you should initialize each structure with say 0, 100, 1000, and 10000, and 100000 things. You should then do each operation below 10,000 times. Then you plot on the x-axis the starting structure size, then you plot each data structure in different colors and optimization levels, and then you have five plots each covering each function. 
+This is an example of the tables you should create, one for each optimization level and a couple across starting points of the size of each structure. For instance, you should initialize each structure with say 0, 100, 1000, and 10000, and 100000 things. You should then do each operation below 100,000 times. Then you plot on the x-axis the starting structure size, then you plot each data structure in different colors and optimization levels, and then you have five plots each covering each function. 
 
 | Data Structure      | Random Insert | Random Read | Contains (x) | Iteration | Random Remove
 | -----------         | -----------   | ----------- | -----------  |  ----------- | ----------- |
